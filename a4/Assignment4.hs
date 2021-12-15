@@ -182,7 +182,7 @@ evalChi = parse "\
   \)\
   \"
 
-runSL :: Exp -> Maybe Exp
-runSL p = runDecode $ do
+runSI :: Exp -> Maybe Exp
+runSI p = runDecode $ do
   term <- asDecoder (code p)
   decode (eval (Apply evalChi term))
