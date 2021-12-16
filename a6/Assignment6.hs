@@ -1,7 +1,7 @@
 {-# LANGUAGE LambdaCase, OverloadedStrings #-}
 {-# OPTIONS_GHC -Wno-incomplete-patterns #-}
 
-module Assignment5 where
+module Assignment6 where
 
 import Assignment4
 import Assignment3
