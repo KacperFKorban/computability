@@ -1,9 +1,5 @@
-{-# LANGUAGE LambdaCase, OverloadedStrings #-}
-{-# OPTIONS_GHC -Wno-incomplete-patterns #-}
-
 module Assignment6 where
 
-import Assignment4
 import Assignment3
 
 import Chi
